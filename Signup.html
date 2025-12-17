@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up • Lynk</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <a href="index.html" class="logo-link">
+  <img src="logo.png" alt="Lynk" class="logo">
+</a>
+  
+  <div class="login-container signup-container">
+    <h1>Create an account</h1>
+    <p class="subtitle">Join Lynk and start meaningful connections</p>
+
+    <form id="signupForm">
+      <input type="text" id="name" placeholder="Full Name" required>
+      <input type="email" id="signupEmail" placeholder="Email" required>
+      <input type="password" id="signupPassword" placeholder="Password" required>
+      <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+
+      <button type="submit">Sign Up</button>
+    </form>
+
+    <p id="signupError"></p>
+
+    <p class="footer-text">
+      Already have an account?
+      <a href="login.html">Sign in</a>
+    </p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
